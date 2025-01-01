@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta and Title Section -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+
+    <!-- External Stylesheets -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <!-- Font Awesome CDN -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+  />
+    <!-- Favicon PNG with different sizes -->
+  <link rel="icon" href="./images/eden-organics-logo.jpg" type="image/png" sizes="16x16">
+  <link rel="icon" href="./images/eden-organics-logo.jpg" type="image/png" sizes="32x32">
+  <link rel="icon" href="./images/eden-organics-logo.jpg" type="image/png" sizes="96x96">
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <nav class="nav">
+      <div class="container nav_container">
+        <div class="nav_left">
+          <a href="index.html" class="gideon-roman-regular">EDEN ORGANICS</a>
+          <ul class="nav_list">
+            <li class="nav_item"><a href="index.html" class="nav_link active">Home</a></li>
+            <li class="nav_item"><a href="about.html" class="nav_link">About Us</a></li>
+            <li class="nav_item"><a href="products.html" class="nav_link">Products</a></li>
+            <li class="nav_item"><a href="services.html" class="nav_link">Services</a></li>
+            <li class="nav_item"><a href="contact.html" class="nav_link">Contact</a></li>
+          </ul>
+        </div>
+        
+        <!-- Hamburger Menu Icon for Mobile -->
+        <div class="hamburger-menu" id="hamburgerMenu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <!-- Social Media Icons -->
+        <div class="nav_right social-media">
+          <a href="https://web.facebook.com/eden0rganics/?_rdc=1&_rdr" target="_blank" class="social-icon">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="https://www.instagram.com/edeno_organics/" target="_blank" class="social-icon">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://www.tiktok.com/@eden_organics" target="_blank" class="social-icon">
+            <i class="fab fa-tiktok"></i>
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <section class="contact_section">
+  <div class="container contact_container">
+    <div class="contact_header">
+      <h2 class="section_h2">Contact Us</h2>
+      <p class="section_p">We&#39;d love to hear from you! Feel free to reach out with any questions, comments, or feedback.</p>
+    </div>
+
+    <div class="contact_info">
+      <div class="contact_details">
+        <h3 class="contact_title">Our Location</h3>
+        <p>29 Starling Crescent Aviary Hill, Newcastle, 2940</p>
+        <div class="contact_map">
+          <!-- Google Map Embed -->
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3531.6929150016776!2d29.917037999999994!3d-27.726766200000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1eedc25b456d03a9%3A0x355f7a948c991dc1!2s29%20Starling%20Ave%2C%20Aviary%20Hill%2C%20Newcastle!5e0!3m2!1sen!2sza!4v1735653206316!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+
+  <div class="contact_form">
+  <h3 class="contact_title">Send Us a Message</h3>
+  <form action="http://localhost:3000/submit-form" method="POST">
+    
+    <!-- User Inputs -->
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+    
+    <!-- Submit Button -->
+    <button type="submit" class="contact_btn">Send Message</button>
+  </form>
+</div>
+
+    </div>
+  </div>
+</section>
+
+
+    <footer class="footer">
+      <div class="container footer_container">
+        <div class="footer_item">
+            <h2 class="gideon-roman-regular">EDEN ORGANICS</h2>
+                <p class="footer_p">The way nature intended.</p>
+        <div class="social-media">
+            <a href="https://web.facebook.com/eden0rganics/?_rdc=1&_rdr" target="_blank" class="social-icon">
+                 <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://www.instagram.com/edeno_organics/" target="_blank" class="social-icon">
+                 <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.tiktok.com/@eden_organics" target="_blank" class="social-icon">
+        <i class="fab fa-tiktok"></i>
+            </a>
+        </div>
+    </div>
+
+        <div class="footer_item">
+          <div class="footer_item_title">Information</div>
+          <ul class="footer_list">
+            <li class="footer_list_item"><a href="about.html" style="color: black;">About</a></li>
+            <li class="footer_list_item"><a href="products.html" style="color: black;">Products</a></li>
+            <li class="footer_list_item"><a href="services.html" style="color: black;">Services</a></li>
+          </ul>
+        </div>
+        <div class="footer_item">
+          <div class="footer_item_title">Company</div>
+          <ul class="footer_list">
+                 <li class="footer_list_item"><a href="about.html" style="color: black;">Community</a></li>
+                 <li class="footer_list_item"><a href="about.html" style="color: black;">Careers</a></li>
+                 <li class="footer_list_item"><a href="about.html" style="color: black;">Our Story</a></li>
+          </ul>
+        </div>
+        <div class="footer_item">
+  <div class="footer_item_title">Contact</div>
+  <ul class="footer_list">
+    <li class="footer_list_item">
+      <i class="fas fa-phone-alt"></i> 
+      <a href="tel:+27609708449" class="contact-link">+27 60 970 8449</a>
+    </li>
+    <li class="footer_list_item">
+      <i class="fab fa-whatsapp"></i> 
+      <a href="https://wa.me/27826574281" target="_blank" class="contact-link">+27 82 657 4281</a>
+    </li>
+    <li class="footer_list_item">
+      <i class="fas fa-envelope"></i> 
+      <a href="mailto:ayavee23@gmail.com" class="contact-link">ayavee23@gmail.com</a>
+    </li>
+  </ul>
+</div>
+
+      </div>
+      <div class="container footer_copy">
+        <p>&copy; 2025 All Rights Reserved | Terms of Use | EDEN ORGANICS</p>
+      </div>
+    </footer>
+
+     <!-- JavaScript for Hamburger Menu -->
+    <script>
+      const hamburgerMenu = document.getElementById("hamburgerMenu");
+      const navList = document.querySelector(".nav_list");
+
+      hamburgerMenu.addEventListener("click", () => {
+        navList.classList.toggle("active"); // Toggles mobile menu visibility
+      });
+    </script>
+
+  </body>
+</html>
