@@ -770,7 +770,16 @@ a {
 
 @media (max-width: 768px) {
   .services .header_container {
-    margin-top: 40px;
+    margin-top: 70px;
+    padding: 0 10px;
+  }
+
+  .header_subtitle {
+    white-space: normal;
+  }
+
+  .photo-gallery {
+    margin-top: 20px;
   }
 }
 
@@ -1156,5 +1165,17 @@ a {
 @media (max-width: 768px) {
   .contact-paragraph {
     font-size: 14px; /* Adjust font size for mobile */
+  }
+}
+
+@media (max-width: 768px) {
+  .photo-gallery {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header_subtitle {
+    margin-bottom: 30px;
   }
 }
